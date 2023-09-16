@@ -13,7 +13,7 @@ html {
     -webkit-text-size-adjust: 100%;
 }
 
-body {
+.body {
     min-height: 100vh;
     line-height: 1;
     text-rendering: optimizeSpeed;
@@ -168,6 +168,7 @@ textarea {vertical-align: top;overflow: auto;
     padding: 5px 0;
     background-color: #ffffff;
     display: none;
+    z-index: 2;
 }
 
 .header-subdirectory-list li{
