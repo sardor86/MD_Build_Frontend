@@ -1,15 +1,14 @@
-.background-image{
-    position: absolute;
-    z-index: 0;
+.introduction-part{
+    height: 41.5vw;
+    background-image: url("../img/background.png");
+    background-size: contain;
 }
 
 .introduction{
-    position: absolute;
-    z-index: 1;
     color: white;
-    width: 835px;
-    height: 315px;
-    margin: 90px 0 0 310px;
+    width: 50%;
+    height: 90%;
+    padding: 90px 0 0 310px;
 }
 
 .introduction .title{
@@ -29,4 +28,60 @@
     padding: 15px 35px;
     border-radius: 5px;
     background: #DE3246;
+}
+
+.about-us{
+    margin: 90px auto;
+    display: flex;
+    width: max-content;
+}
+
+.about-img{
+    height: 670px;
+    width: 420px;
+}
+
+.about-information{
+    margin: 0 20px;
+    width: 860px;
+}
+
+.about-information h2{
+    color: #423B39;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.about-title{
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+    margin-top: 50px;
+}
+
+.small-about-title{
+    color: #000;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    margin: 35px 0 9px 0;
+}
+
+.information-list li{
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+    margin: 11px 0;
+}
+
+.about-button{
+    border-radius: 5px;
+    border: 2px solid #DE3246;
+    padding: 15px 35px;
 }
