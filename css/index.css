@@ -1,0 +1,32 @@
+.background-image{
+    position: absolute;
+    z-index: 0;
+}
+
+.introduction{
+    position: absolute;
+    z-index: 1;
+    color: white;
+    width: 835px;
+    height: 315px;
+    margin: 90px 0 0 310px;
+}
+
+.introduction .title{
+    font-size: 50px;
+}
+
+.introduction .title-info{
+    margin: 30px 0 50px 0;
+    color: #FFF;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%; /* 29.9px */
+}
+
+.introduction .title-category{
+    padding: 15px 35px;
+    border-radius: 5px;
+    background: #DE3246;
+}
