@@ -87,19 +87,17 @@
 }
 
 .choose-us{
+    background-image: url("../img/choose_background.png");
     padding: 90px 0;
-}
-
-.choose-us .background-img{
-    position: absolute;
-    z-index: -1;
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 .choose-us .data-content{
     background-color: white;
     width: max-content;
     padding: 50px 70px;
-    margin: 200px 1000px;
+    margin: 0 1000px;
 }
 
 .choose-us .choose-title{
