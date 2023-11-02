@@ -85,3 +85,40 @@
     border: 2px solid #DE3246;
     padding: 15px 35px;
 }
+
+.choose-us{
+    padding: 90px 0;
+}
+
+.choose-us .background-img{
+    position: absolute;
+    z-index: -1;
+}
+
+.choose-us .data-content{
+    background-color: white;
+    width: max-content;
+    padding: 50px 70px;
+    margin: 200px 1000px;
+}
+
+.choose-us .choose-title{
+    color: #423B39;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.choose-us ul{
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+}
+
+.choose-us li{
+    margin: 30px 0;
+}
