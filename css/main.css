@@ -186,3 +186,59 @@ textarea {vertical-align: top;overflow: auto;
     padding: 15px 35px;
     margin: 25px;
 }
+
+.footer{
+    margin-top: 100px;
+    background: #413B39;
+    padding: 70px 300px;
+}
+
+.footer-contain{
+    width: max-content;
+    height: max-content;
+    margin: auto auto;
+    display: flex;
+}
+
+.footer-logo{
+    width: 160px;
+    height: 85px;
+}
+
+.footer-contacts{
+    margin: 0 110px 0 150px;
+}
+
+.footer-telephone-number{
+    color: #FFF;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.contacts-link-list{
+    display: flex;
+    margin-top: 30px;
+}
+
+.footer-contacts-link img{
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+}
+
+.contain-links ul{
+    display: flex;
+}
+
+.footer-link{
+    margin-right: 40px;
+    color: #FFF;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+}
